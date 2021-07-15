@@ -4,7 +4,7 @@
 
 #### 學生小明
 
-https://replit.com/@lighthouse/TAassessmentguessnumberjs
+[https://replit.com/@lighthouse/TAassessmentguessnumberjs](https://replit.com/@lighthouse/TAassessmentguessnumberjs)
 
 指標：Try harder
 
@@ -19,7 +19,7 @@ https://replit.com/@lighthouse/TAassessmentguessnumberjs
 
 #### 學生小華
 
-https://replit.com/@lighthouse/taassessmentguessnumberjs2
+[https://replit.com/@lighthouse/taassessmentguessnumberjs2](https://replit.com/@lighthouse/taassessmentguessnumberjs2)
 
 指標：Good
 
@@ -29,7 +29,7 @@ https://replit.com/@lighthouse/taassessmentguessnumberjs2
    - 輸入非數字 console 印出 Answer is NaN ，程式執行一次猜數字，但是因為 NaN 不匹配 while 和 while 裡面的兩個 if 條件，無法跳出迴圈
    - 輸入1 - 100之間含小數點數字，直接無條件捨去執行猜數字程式，應該要求重新輸入一個整數
 
-
+<div style="page-break-after: always; break-after: page;"></div>
 
 ## Case Exercise 2
 
@@ -37,14 +37,69 @@ https://replit.com/@lighthouse/taassessmentguessnumberjs2
 
 [Model answer: Demo](https://alphacamp.github.io/personal-site/)
 
-指標：Excellent
-
-指引：
-
-1. 善用語意化標籤
-2. 圖片有做自適應等比縮放
-3. head 地方可以多加一些 meta 像是 description, open graph...等，為 SEO 做優化
-4. Contact 的 write message textarea 也許可以在樣式加個 resize: none;
+<table>
+<thead>
+    <tr>
+        <th></th>
+        <th>批改指標</th>
+        <th>批改指引</th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <td>Try Harder</td>
+        <td>沒有達成以下指標</td>
+        <td>
+            <ul>
+                <li>網站無法運行</li>
+            </ul>
+        </td>
+    <tr>
+    <tr>
+        <td rowspan="3">Good</td>
+        <td>程式能正確執行</td>
+        <td>
+            <ul>
+                <li>網站可運行</li>
+                <li>基本展示正常</li>
+            </ul>
+        </td>
+    <tr>
+    <tr>
+        <td>程式能正確執行且<br/>對使用者友善</td>
+        <td>
+            <ul>
+                <li>網頁字體、配色易於閱讀</li>
+                <li>使用一些圖標代替文字，易於使用者理解和簡化頁面</li>
+                <li>滑鼠游標有動作交互指引，如按鈕 hover 狀態、圖片 hover 陰影</li>
+            </ul>
+        </td>
+    <tr>
+    <tr>
+        <td rowspan="2">Excellent</td>
+        <td>達成以上指標且<br/>資料結構與流程設計完善</td>
+        <td>
+            <ul>
+                <li>與設計稿視覺完全一致</li>
+                <li>使用語意化標籤</li>
+                <li>樣式 class name 模塊化</li>
+                <li>表單使用正確的 input 類型，可自動填入用戶資料</li>
+                <li>內容兼顧各個解析度的自適應排版</li>
+                <li>圖片支援等比例自適應放大縮小</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>達成以上指標且<br/>顧及了程式碼易讀性</td>
+        <td>
+            <ul>
+                <li>程式碼有註解，方便閱讀及後續維護</li>
+                <li>變量命名容易理解</li>
+            </ul>
+        </td>
+    </tr>
+</tbody>
+</table>
 
 ### 作業二
 
@@ -65,19 +120,59 @@ function fizzBuzz(num) {
 }
 ```
 
-指標：Good
-
-指引：
-
-1. 邏輯可以再簡單清晰一點，把兩個分別判斷 `num` 是否為 3 的倍數 if 條件和 5 的倍數 if 條件寫在一起，以及例外條件寫在最後的 `else` 裡面，如下
-```js
-if (num % 3 === 0) { 
-  ... 
-} else if (num % 5 === 0) {
-  ...
-} else {
-  ...
-}
-```
-2. 承上述，如果把判斷條件寫在一起，就可以不用 `str` 變量，直接在 3 或 5 的倍數條件裡 `return 'Fizz'` 或 `return 'Buzz'`，例外條件 `else` 的地方 `return num`，減少不必要的變量聲明
-
+<table>
+<thead>
+    <tr>
+        <th></th>
+        <th>批改指標</th>
+        <th>批改指引</th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <td>Try Harder</td>
+        <td>沒有達成以下指標</td>
+        <td>
+            <ul>
+                <li>程式無法執行</li>
+            </ul>
+        </td>
+    <tr>
+    <tr>
+        <td rowspan="3">Good</td>
+        <td>程式能正確執行</td>
+        <td>
+            <ul>
+                <li>程式可執行</li>
+            </ul>
+        </td>
+    <tr>
+    <tr>
+        <td>程式能正確執行且<br/>對使用者友善</td>
+        <td>
+            <ul>
+                <li>有清楚的輸入類型 (number, string ...)</li>
+            </ul>
+        </td>
+    <tr>
+    <tr>
+        <td rowspan="2">Excellent</td>
+        <td>達成以上指標且<br/>資料結構與流程設計完善</td>
+        <td>
+            <ul>
+                <li>沒有多餘的變量聲明</li>
+                <li>在最外層邏輯保證使用 `return` 避免異常錯誤</li>
+                <li>簡潔且有效率的邏輯處理</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>達成以上指標且<br/>顧及了程式碼易讀性</td>
+        <td>
+            <ul>
+                <li>程式碼有註解，方便閱讀及後續維護</li>
+                <li>變量命名容易理解</li>
+            </ul>
+        </td>
+    </tr>
+</tbody>
